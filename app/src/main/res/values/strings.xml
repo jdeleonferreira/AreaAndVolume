@@ -1,3 +1,46 @@
 <resources>
-    <string name="app_name">AreaAndVolume</string>
+    <string name="app_name">Area y Volumen</string>
+    <string name="strTitle">OPCIONES</string>
+
+    <string name="areas">ÁREAS</string>
+    <string name="volumes">VOLÚMENES</string>
+    <string name="performed_actions">OPERACIONES REALIZADAS</string>
+
+    <string-array name="options">
+        <item>@string/areas</item>
+        <item>@string/volumes</item>
+        <item>@string/performed_actions</item>
+    </string-array>
+
+    <string name="square">CUADRADO</string>
+    <string name="rectangle">RECTÁNGULO</string>
+    <string name="triangle">TRIÁNGULO</string>
+    <string name="circle">CÍRCULO</string>
+
+    <string-array name="areas_options">
+        <item>@string/square</item>
+        <item>@string/rectangle</item>
+        <item>@string/triangle</item>
+        <item>@string/circle</item>
+    </string-array>
+
+    <string name="sphere">ESFERA</string>
+    <string name="cylinder">CILINDRO</string>
+    <string name="cone">CONO</string>
+    <string name="cube">CUBO</string>
+    <string name="strAreaTitle">ÁREAS</string>
+    <string name="strSquereSide">Valor del lado</string>
+    <string name="strCalculate">Calcular</string>
+    <string name="strClear">Limpiar</string>
+    <string name="strRectangleTitle">RECTÁNGULO</string>
+    <string name="strBase">Base</string>
+    <string name="strHeight">Altura</string>
+
+    <string-array name="volumes_options">
+        <item>@string/sphere</item>
+        <item>@string/cylinder</item>
+        <item>@string/cone</item>
+        <item>@string/cube</item>
+    </string-array>
+
 </resources>

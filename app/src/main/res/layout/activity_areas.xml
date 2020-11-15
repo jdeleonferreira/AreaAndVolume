@@ -5,19 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".Areas">
 
     <TextView
-        android:id="@+id/lblTitle"
+        android:id="@+id/lblAreaTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/strTitle"
+        android:text="@string/strAreaTitle"
         android:textAlignment="center"
         android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textStyle="bold|italic" />
 
     <ListView
-        android:id="@+id/lstOptions"
+        android:id="@+id/lstAreas"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_marginTop="15sp" />
 </LinearLayout>

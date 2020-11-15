@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Area and Volume</string>
+    <string name="strTitle">OPTIONS</string>
+    <string name="areas">AREAS</string>
+    <string name="volumes">VOLUMES</string>
+    <string name="performed_actions">PERFORMED ACTIONS</string>
+    <string name="square">SQUARE</string>
+    <string name="rectangle">RECTANGLE</string>
+    <string name="triangle">TRIANGLE</string>
+    <string name="circle">CIRCLE</string>
+    <string name="sphere">SPHERE</string>
+    <string name="cone">CONE</string>
+    <string name="cube">CUBE</string>
+    <string name="strAreaTitle">AREAS</string>
+    <string name="cylinder">CYLINDER</string>
+</resources>
