@@ -36,7 +36,7 @@ public class TriangleActivity extends AppCompatActivity {
             tr.setBase(Double.parseDouble(String.valueOf(txtTrBase.getText())));
             tr.setHeight(Double.parseDouble(String.valueOf(txtTrHeight.getText())));
 
-            tr.setPerformedAction(getResources().getString(R.string.strRectangleArea));
+            tr.setPerformedAction(getResources().getString(R.string.strTriangleArea));
             String res = getResources().getString(R.string.strAreaResult)
                     .replaceAll("-area-", String.valueOf(tr.calculate()));
 

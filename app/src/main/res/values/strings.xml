@@ -62,6 +62,11 @@
     <string name="strTriangleTitle">TRIÁNGULO</string>
     <string name="strCircleTitle">CÍRCULO</string>
     <string name="strCircleRadius">Radio</string>
+    <string name="strSphereTitle">ESFERA</string>
+    <string name="strClTitle">CILINDRO</string>
+    <string name="strConeTitle">CONO</string>
+    <string name="strCubeTitle">CUBO</string>
+    <string name="strSide">Lado</string>
 
 
 </resources>

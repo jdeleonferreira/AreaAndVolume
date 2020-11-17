@@ -35,7 +35,7 @@ public class CircleActivity extends AppCompatActivity {
     public void calculateArea(View v){
         if(validate()) {
             cr.setRadius(Double.parseDouble(String.valueOf(txtRadius.getText())));
-            cr.setPerformedAction(getResources().getString(R.string.strSquareArea));
+            cr.setPerformedAction(getResources().getString(R.string.strCircleArea));
             String res = getResources().getString(R.string.strAreaResult)
                     .replaceAll("-area-", String.valueOf(cr.calculate()));
 

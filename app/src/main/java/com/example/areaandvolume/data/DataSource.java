@@ -12,6 +12,6 @@ public class DataSource {
     }
 
     public static void setPerformedActions(GeometricShape performedAction) {
-        DataSource.performedActions.add(performedAction);
+        performedActions.add(performedAction);
     }
 }

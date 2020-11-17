@@ -40,4 +40,9 @@
     <string name="strTriangleTitle">TRIANGLE</string>
     <string name="strCircleTitle">CIRCLE</string>
     <string name="strCircleRadius">Radius</string>
+    <string name="strSphereTitle">SPHERE</string>
+    <string name="strClTitle">CYLINDER</string>
+    <string name="strConeTitle">CONE</string>
+    <string name="strCubeTitle">CUBO</string>
+    <string name="strSide">Side</string>
 </resources>

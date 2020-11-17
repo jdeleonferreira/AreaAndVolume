@@ -2,6 +2,7 @@ package com.example.areaandvolume;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
@@ -43,6 +44,8 @@ public class PerformedActionsActivity extends AppCompatActivity {
             data.setText(performedActions.get(i).getDataString());
             result.setText(""+performedActions.get(i).calculate());
 
+            row.setBackgroundColor(i%2==0?Color.LTGRAY:Color.WHITE);
+            row.setMinimumHeight(30);
             row.addView(num);
             row.addView(action);
             row.addView(data);
