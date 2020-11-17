@@ -45,7 +45,8 @@ public class PerformedActionsActivity extends AppCompatActivity {
             result.setText(""+performedActions.get(i).calculate());
 
             row.setBackgroundColor(i%2==0?Color.LTGRAY:Color.WHITE);
-            row.setMinimumHeight(30);
+            //TableRow.LayoutParams params = new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT,130);
+            //row.setLayoutParams(params);
             row.addView(num);
             row.addView(action);
             row.addView(data);
