@@ -1,4 +1,4 @@
-package com.example.areaandvolume.area;
+package com.example.areaandvolume.volume;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.example.areaandvolume.R;
 
-public class Rectangle extends AppCompatActivity {
+public class SphereActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_rectangle);
+        setContentView(R.layout.activity_sphere);
     }
 }

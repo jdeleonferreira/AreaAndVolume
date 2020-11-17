@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.example.areaandvolume.R;
 
-public class Cylinder extends AppCompatActivity {
+public class ConeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cylinder);
+        setContentView(R.layout.activity_cone);
     }
 }

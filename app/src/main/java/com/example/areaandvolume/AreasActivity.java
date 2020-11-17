@@ -10,9 +10,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import com.example.areaandvolume.area.*;
 
-import com.example.areaandvolume.area.Square;
+import com.example.areaandvolume.area.SquareActivity;
 
-public class Areas extends AppCompatActivity {
+public class AreasActivity extends AppCompatActivity {
 
     private ListView areaList;
     private String[] areaOptions;
@@ -33,19 +33,19 @@ public class Areas extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch(position){
                     case 0:
-                        intent = new Intent(Areas.this, Square.class);
+                        intent = new Intent(AreasActivity.this, SquareActivity.class);
                         startActivity(intent);
                         break;
                     case 1:
-                        intent = new Intent(Areas.this, Rectangle.class);
+                        intent = new Intent(AreasActivity.this, RectangleActivity.class);
                         startActivity(intent);
                         break;
                     case 2:
-                        intent = new Intent(Areas.this, Triangle.class);
+                        intent = new Intent(AreasActivity.this, TriangleActivity.class);
                         startActivity(intent);
                         break;
                     case 3:
-                        intent = new Intent(Areas.this, Circle.class);
+                        intent = new Intent(AreasActivity.this, CircleActivity.class);
                         startActivity(intent);
                         break;
                 }

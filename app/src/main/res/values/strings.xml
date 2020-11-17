@@ -35,6 +35,11 @@
     <string name="strRectangleTitle">RECTÁNGULO</string>
     <string name="strBase">Base</string>
     <string name="strHeight">Altura</string>
+    <string name="strPerformedTitle">REALIZADAS</string>
+    <string name="strRowNum">#</string>
+    <string name="strOperations">OPERACIONES</string>
+    <string name="lblData">DATOS</string>
+    <string name="strResult">RESULTADO</string>
 
     <string-array name="volumes_options">
         <item>@string/sphere</item>
@@ -42,5 +47,21 @@
         <item>@string/cone</item>
         <item>@string/cube</item>
     </string-array>
+    <string name="strSquareArea">Área del cuadrado</string>
+    <string name="strRectangleArea">Área del rectángulo</string>
+    <string name="strTriangleArea">Área del triángulo</string>
+    <string name="strCircleArea">Área del Círculo</string>
+    <string name="strSphereVolume">Volumen de la Esfera</string>
+    <string name="strCylinderVolume">Volumen del Cilindro</string>
+    <string name="strConeVolume">Voulmen del Cono</string>
+    <string name="strCubeVolume">Volumen del Cubo</string>
+    <string name="strAreaResult">El área es: -area-</string>
+    <string name="strVolumeResult">El volumen es: -volume-</string>
+    <string name="strRequireField">Campo obligatorio</string>
+    <string name="strOkButton">ok</string>
+    <string name="strTriangleTitle">TRIÁNGULO</string>
+    <string name="strCircleTitle">CÍRCULO</string>
+    <string name="strCircleRadius">Radio</string>
+
 
 </resources>

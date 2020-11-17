@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -32,17 +31,17 @@ public class MainActivity extends AppCompatActivity {
                 switch (position){
                     case 0:
                         intent = new Intent(MainActivity.this
-                                , Areas.class);
+                                , AreasActivity.class);
                         startActivity(intent);
                         break;
                     case 1:
                         intent = new Intent(MainActivity.this
-                                , Volumes.class);
+                                , VolumesActivity.class);
                         startActivity(intent);
                         break;
                     case 2:
                         intent = new Intent(MainActivity.this
-                                , PerformedActions.class);
+                                , PerformedActionsActivity.class);
                         startActivity(intent);
                         break;
                 }

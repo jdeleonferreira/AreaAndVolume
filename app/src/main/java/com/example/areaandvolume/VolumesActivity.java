@@ -9,16 +9,12 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.example.areaandvolume.area.Circle;
-import com.example.areaandvolume.area.Rectangle;
-import com.example.areaandvolume.area.Square;
-import com.example.areaandvolume.area.Triangle;
-import com.example.areaandvolume.volume.Cone;
-import com.example.areaandvolume.volume.Cube;
-import com.example.areaandvolume.volume.Cylinder;
-import com.example.areaandvolume.volume.Sphere;
+import com.example.areaandvolume.volume.ConeActivity;
+import com.example.areaandvolume.volume.CubeActivity;
+import com.example.areaandvolume.volume.CylinderActivity;
+import com.example.areaandvolume.volume.SphereActivity;
 
-public class Volumes extends AppCompatActivity {
+public class VolumesActivity extends AppCompatActivity {
 
     private ListView volumeList;
     private String[] volumeOptions;
@@ -39,19 +35,19 @@ public class Volumes extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch(position){
                     case 0:
-                        intent = new Intent(Volumes.this, Sphere.class);
+                        intent = new Intent(VolumesActivity.this, SphereActivity.class);
                         startActivity(intent);
                         break;
                     case 1:
-                        intent = new Intent(Volumes.this, Cylinder.class);
+                        intent = new Intent(VolumesActivity.this, CylinderActivity.class);
                         startActivity(intent);
                         break;
                     case 2:
-                        intent = new Intent(Volumes.this, Cone.class);
+                        intent = new Intent(VolumesActivity.this, ConeActivity.class);
                         startActivity(intent);
                         break;
                     case 3:
-                        intent = new Intent(Volumes.this, Cube.class);
+                        intent = new Intent(VolumesActivity.this, CubeActivity.class);
                         startActivity(intent);
                         break;
                 }

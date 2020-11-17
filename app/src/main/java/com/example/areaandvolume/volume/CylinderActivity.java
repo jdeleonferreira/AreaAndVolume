@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.example.areaandvolume.R;
 
-public class Cube extends AppCompatActivity {
+public class CylinderActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cube);
+        setContentView(R.layout.activity_cylinder);
     }
 }

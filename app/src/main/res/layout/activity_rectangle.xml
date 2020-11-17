@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".area.Rectangle">
+    tools:context=".area.RectangleActivity">
 
     <TextView
         android:id="@+id/lblRectangleTitle"
@@ -48,7 +48,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="number" />
+            android:inputType="number"
+            android:importantForAutofill="no" />
 
         <EditText
             android:id="@+id/txtHeight"
@@ -69,6 +70,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="calculateArea"
             android:text="@string/strCalculate" />
 
         <Button
@@ -78,4 +80,20 @@
             android:layout_weight="1"
             android:text="@string/strClear" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/lblRectangleResultTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strResult"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/lblRectangleArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
